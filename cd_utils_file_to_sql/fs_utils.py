@@ -45,7 +45,7 @@ class FsUtilsSql:
 
     def get_str_query_file(self):
         self._logger.info('get_str_query_file')
-        self._logger.info('Removendo comentarios e caracteres que não são utilizados em query')
+        self._logger.info('Removendo comentários e caracteres que não são utilizados em query')
         data = re.sub(re.compile("/\*.*?\*/", re.DOTALL), "",
                       self.get_str_file())  # remove all occurrences streamed comments (/*COMMENT */) from string
 

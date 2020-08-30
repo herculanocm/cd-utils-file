@@ -9,7 +9,7 @@ with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 setuptools.setup(
     name='cd-utils-file',
-    version='1.0.0',
+    version='1.0.1',
     packages=setuptools.find_packages(),
     url='https://github.com/herculanocm/cd-utils-file',
     download_url='https://github.com/herculanocm/cd-utils-file/archive/master.zip',
